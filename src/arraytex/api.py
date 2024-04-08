@@ -41,6 +41,7 @@ def to_matrix(
     if len(arr.shape) > 2:
         raise TooManyDimensionsError
 
+    # Test comment
     lines = _parse_lines(arr, num_format, scientific_notation)
 
     environment = f"{style}matrix"
